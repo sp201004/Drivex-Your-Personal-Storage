@@ -23,10 +23,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+**
-members. It's a place where people help each other out.
+Welcome to a next-generation file storage and sharing platform designed for simplicity, speed, and security. This powerful application enables users to effortlessly upload, categorize, preview, and share their files—all through an intuitive, user-friendly interface. Built on the latest version of Next.js 15 and powered by the Appwrite Node SDK, the platform integrates cutting-edge technologies to deliver blazing-fast performance and rock-solid reliability. Whether you're managing personal documents or collaborating on team projects, our solution ensures seamless access and control over your digital assets. With features like real-time updates, secure file permissions, and scalable architecture, this platform sets a new standard for modern file management.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
