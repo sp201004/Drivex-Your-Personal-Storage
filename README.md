@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/lie0cr3wESQ" target="_blank">
+    <a>
       <img src="https://github.com/user-attachments/assets/81333137-b895-498f-8dab-4aca7806deb0" alt="Project Banner">
     </a>
   <br />
