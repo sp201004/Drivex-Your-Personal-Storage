@@ -12,13 +12,12 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
-<h3 align="center">Storage and File Sharing Platform</h3>
+<h3 align="center">DriveX - Storage and File Sharing Platform</h3>
 
    <div align="center">
   <i>"Design is not just what it looks like and feels like. Design is how it works."</i><br>
   — <b>Steve Jobs</b>
 </div>
-
 </div>
 
 ## <a name="introduction">🤖 Introduction</a>
