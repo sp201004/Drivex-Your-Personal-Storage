@@ -37,35 +37,94 @@ this platform sets a new standard for modern file management.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- React 19
-- Next.js 15
-- Appwrite
-- TailwindCSS
-- ShadCN
-- TypeScript
+- **Frontend Framework**: Next.js 15 with React 19
+- **Language**: TypeScript
+- **Styling**: TailwindCSS + ShadCN UI Components
+- **Backend Services**: Appwrite (Authentication, Storage, Database)
+- **Type Safety**: TypeScript with strict mode
+
+## 📁 Project Structure
+```
+DriveX/
+├── app/                  # Next.js app directory (pages and routing)
+├── components/          # Reusable UI components
+├── constants/          # Application constants
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions and configurations
+├── public/            # Static assets
+├── types/             # TypeScript type definitions
+└── ...configuration files
+```
 
 ## <a name="features">🔋 Features</a>
 
-👉 **User Authentication with Appwrite**: Implement signup, login, and logout functionality using Appwrite's authentication system.
+DriveX is packed with robust, user-friendly features designed to streamline file storage, sharing, and management:
 
-👉 **FIle Uploads**: Effortlessly upload a variety of file types, including documents, images, videos, and audio, ensuring all your important data.
+- **🔐 Secure User Authentication (Appwrite)**  
+  Sign up, log in, and manage sessions securely using Appwrite’s authentication services.
 
-👉 **View and Manage Files**: Users can browse through their uploaded files stored in Appwrite storage, view on a new tab, rename file or delete.
+- **📤 Versatile File Uploads**  
+  Easily upload a wide range of file types — documents, images, videos, audio, and more — ensuring all your essential data is stored safely.
 
-👉 **Download Files**: Users can download their uploaded files giving them instant access to essential documents.
+- **📂 File Management Dashboard**  
+  Browse, preview, rename, or delete your uploaded files directly from an intuitive interface powered by Appwrite’s storage API.
 
-👉 **File Sharing**: Users can easily share their uploaded files with others, enabling collaboration and easy access to important content.
+- **📥 Seamless File Downloads**  
+  Instantly download stored files, making content readily accessible when you need it.
 
-👉 **Dashboard**: Gain insights at a glance with a dynamic dashboard that showcases total and consumed storage, recent uploads, and a summary of files grouped by type.
+- **🔗 Easy File Sharing**  
+  Share files via secure links or permissions, enabling smooth collaboration across users.
 
-👉 **Global Search**: Users can quickly find files and shared content across the platform with a robust global search feature.
+- **📊 Interactive Dashboard**  
+  Visualize usage data, including total storage, consumed space, recent uploads, and a summary of files by type — all in one place.
 
-👉 **Sorting Options**: Organize files efficiently by sorting them by date, name, or size, making file management a breeze.
+- **🔍 Global File Search**  
+  Locate files quickly across the platform using an efficient and responsive global search feature.
 
-👉 **Modern Responsive Design**: A fresh and minimalist UI that emphasizes usability, ensuring a clean aesthetic across all devices.
+- **🧮 Advanced Sorting Options**  
+  Organize your files by date, name, or size to simplify navigation and improve productivity.
 
-and many more, including the latest **React 19**, **Next.js 15** and **Appwrite** features alongside code architecture and
-reusability
+- **🖥️ Modern, Responsive UI**  
+  Built with a minimalist, mobile-friendly design that adapts seamlessly to any screen size.
+
+- **⚙️ Powered by Modern Tech**  
+  Utilizes the latest in web technology — **React 19**, **Next.js 15**, and **Appwrite** — along with modular architecture for scalability and code reusability.
+
+> ...and much more to empower efficient, secure, and scalable digital storage.
+
+## Core Features
+
+### File Management
+- **Upload System**: Support for multiple file types (documents, images, videos, audio)
+- **File Operations**: View, rename, delete, and download capabilities
+- **Storage Dashboard**: Visual representation of storage usage and statistics
+- **File Organization**: Sort by date, name, or size
+- **Global Search**: Quick file lookup across the platform
+
+### User Experience
+- **Modern UI**: Clean, minimalist design with responsive layouts
+- **Real-time Updates**: Instant feedback on file operations
+- **File Preview**: Built-in preview for supported file types
+- **Drag-and-Drop**: Intuitive file upload interface
+- **Progress Tracking**: Visual feedback for upload/download operations
+
+### Security & Sharing
+- **User Authentication**: Secure signup/login via Appwrite
+- **File Sharing**: Controlled sharing with customizable permissions
+- **Access Control**: Granular control over shared resources
+- **Secure Storage**: Enterprise-grade file storage with Appwrite
+
+### Technical Features
+- **Server-Side Rendering**: Optimized page loads with Next.js
+- **Type Safety**: Full TypeScript implementation
+- **Responsive Design**: Mobile-first approach
+- **Modern Components**: Built with ShadCN UI library
+- **Performance Optimized**: Efficient file handling and caching
+
+## Setup Requirements
+- Node.js (Latest LTS version)
+- npm or yarn
+- Appwrite instance (self-hosted or cloud)
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -79,20 +138,6 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/sp201004/Drivex-Your-Personal-Storage.git
-cd Drivex-Your-Personal-Storage
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
 
 **Set Up Environment Variables**
 
@@ -113,12 +158,53 @@ creating a new project on the [Appwrite website](https://appwrite.io/).
 
 **Running the Project**
 
-```bash
-npm run dev
-```
+## Development
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sp201004/Drivex-Your-Personal-Storage.git
+   cd Drivex-Your-Personal-Storage
+   ```
 
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure environment variables:
+   - Create `.env.local` file
+   - Add required configuration
+
+4. Start development server:
+   ```bash
+   npm run dev
+   ```
+
+## Production Deployment
+1. Build the application:
+   ```bash
+   npm run build
+   ```
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
+2. Configure Appwrite:
+   - Set up storage buckets
+   - Configure authentication
+   - Set appropriate security rules
+
+3. Deploy using your preferred hosting service.
+
+## Performance Optimizations
+- Implemented lazy loading for images and components
+- Optimized asset delivery with Next.js Image component
+- Efficient file chunking for large uploads
+- Caching strategies for frequently accessed content
+
+## Best Practices
+- Consistent code formatting with ESLint and Prettier
+- Component-based architecture
+- Type-safe development
+- Responsive design principles
+- Security-first approach
 
 ## 🌟 Show your support
 
