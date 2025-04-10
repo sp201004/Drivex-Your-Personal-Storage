@@ -83,8 +83,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/JavaScript-Mastery-Pro/storage_management_solution.git
-cd storage_management_solution
+git clone https://github.com/sp201004/Drivex-Your-Personal-Storage.git
+cd Drivex-Your-Personal-Storage
 ```
 
 **Installation**
